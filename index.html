@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>The Mentalist</title>
+</head>
+<body>
+    <h1>Mentalista</h1>
+    <h2>Descubra o número escolhido por nós entre 1 e 100</h2>
+
+    <p>
+        Tentativas:
+        <span id="tentativas">5</span>
+    </p>
+
+    <div class="chute-box">
+        <input id="chute" type="text" placeholder="Chute aqui" />
+
+        <button id="botao" onclick="play()">Chutar</button>
+    </div>
+
+    <p id="respostaAoChute">
+        
+    </p>
+
+  <div style="display: flex; justify-content: center;">
+     <button id="playagain" onclick="deNovo()">Jogar de novo</button>
+  </div>
+  
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>

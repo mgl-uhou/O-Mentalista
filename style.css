@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --branco: #e6f9ff;
+    --back: #9191f16b;
+}
+
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("./images/background.png");
+    background-color: #1d1d1d;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h1 {
+    background: var(--back);
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1, h2, p, span { 
+    color: var(--branco); margin-top: 2em; 
+}
+
+p {
+    font-size: 2em;
+    margin-bottom: 2em;
+}
+
+.chute-box {
+    margin: 0 auto;
+    gap: 34px;
+}
+
+input, button {
+    border: none;
+    width: 20%;
+    height: 30px;
+    border-radius: 4px;
+}
+
+input{
+    outline: none;
+    padding: 5px;
+}
+
+#playagain{
+  display: none;
+}
